@@ -18,6 +18,10 @@ body {
   left: 0;
 }
 
+.nav-button:hover {
+  color: rgb(139, 139, 139);
+}
+
 .nav-buttons {
   flex-wrap: wrap;
 }
@@ -55,10 +59,11 @@ p {
 }
 
 img {
-  width: 150px;
-  height: 150px;
+  width: 200px;
+  height: 200px;
   opacity: 1;
   object-fit: cover;
+  padding: 10px;
 }
 
 .img-circle {
