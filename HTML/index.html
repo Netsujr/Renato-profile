@@ -10,24 +10,69 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
   integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
-  <title>My Profile</title>
+  <title><strong>Renato Delboni</strong></title>
 </head>
 <body>
   <div class="container">
     <div class="row justify-content-center">
-      <div class="col-12">
-        <div class="card-white">
-          <img class="img-circle" src="../images/renato_profile.png" alt="profile picture">
-          <h1>Hello, I'm Renato</h1>
-          <h2>Junior Programmer</h2>
-          <p>I have been programming since early 2021. After completing the Lewagon coding bootcamp, I took on few projects. Bellow are some examples.</p>
-          <a class="btn-blue" href='#examples' target="_blank">Portfolio</a>
+      <div class="col-12 card-white">
+        <h1>Renato Delboni</h1>
+        <h2 style="opacity: 0.5">Front-End Developer</h2>
+        <img class="img-circle" src="../images/renato_profile.png" alt="profile picture">
+        <div class="row nav-buttons justify-content-center align-items-center pt-4">
+          <div class="nav-button d-flex flex-column justify-content-center align-items-center">
+            <i class="fas fa-info-circle"></i>
+            <span>About</span>
+            <a href="#about" class="nav-button-link"></a>
+          </div>
+          <div class="nav-button d-flex flex-column justify-content-center align-items-center">
+            <i class="fas fa-chalkboard-teacher"></i>
+            <span>Tutorials</span>
+            <a href="#tutorials" class="nav-button-link"></a>
+          </div>
+          <div class="nav-button d-flex flex-column justify-content-center align-items-center">
+            <i class="fas fa-laptop-code"></i>
+            <span>Projects</span>
+            <a href="#projects" class="nav-button-link"></a>
+          </div>
+          <div class="nav-button d-flex flex-column justify-content-center align-items-center">
+            <i class="fas fa-envelope"></i>
+            <span>Contact</span>
+            <a href="#contact" class="nav-button-link"></a>
+          </div>
         </div>
       </div>
     </div>
+  </div>
+
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="row col-8 justify-content-center">
+        <h2 id="about" style="opacity: 0.5">About Me</h2>
+        <p>Front-end developer looking for a job in Tokyo. Experienced with HTML, CSS, Javascript, and a number of other front-end
+          tools and technologies. Fell in love with front-end and wish to further my skills to become an achieved full-stack
+          developer while being part of a strong team.</p>
+        </div>
+      </div>
+    </div>
+
+    <br>
+    <br>
+
+    <br>
     <div class="row justify-content-around">
       <div class="card m-2" style="width: 18rem;">
-        <img class="card-img-top" src="images/palceholder.jpg" alt="Card image cap">
+        <img class="card-img-top" src="../images/palceholder.jpg" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.
+          </p>
+          <a href="#" class="btn-blue d-flex justify-content-center">Visit</a>
+        </div>
+      </div>
+
+      <div class="card m-2" style="width: 18rem;">
+        <img class="card-img-top" src="../images/palceholder.jpg" alt="Card image cap">
         <div class="card-body">
           <h5 class="card-title">Card title</h5>
           <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.
@@ -36,16 +81,7 @@
         </div>
       </div>
       <div class="card m-2" style="width: 18rem;">
-        <img class="card-img-top" src="images/palceholder.jpg" alt="Card image cap">
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.
-          </p>
-          <a href="#" class="btn-blue d-flex justify-content-center">Visit</a>
-        </div>
-      </div>
-      <div class="card m-2" style="width: 18rem;">
-        <img class="card-img-top" src="images/palceholder.jpg" alt="Card image cap">
+        <img class="card-img-top" src="../images/palceholder.jpg" alt="Card image cap">
         <div class="card-body">
           <h5 class="card-title">Card title</h5>
           <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.
@@ -56,8 +92,8 @@
     </div>
   </div>
 
-  <footer>
-    <div class="card-white">
+  <footer id="contact">
+    <div class="col-4 justify-content-between card-white">
       <ul class="list">
         <li>
           <a href="https://www.github.com/Netsujr" target="_blank">
