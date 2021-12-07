@@ -1,6 +1,10 @@
 
 @import url('https://fonts.googleapis.com/css2?family=BioRhyme:wght@200&display=swap');
 @import "components/cards.scss";
+html {
+    scroll-behavior: smooth;
+}
+
 
 body {
   background-image: url(/images/pexels-ovan-62693.jpg);
@@ -75,6 +79,7 @@ img {
 .card-white .list {
   list-style: none;
   padding-left: 0px;
+  width: 100%;
 }
 
 ul li {
