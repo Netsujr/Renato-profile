@@ -46,7 +46,7 @@ p {
   margin-bottom: 20px;
 }
 
-.btn-blue {
+.card-btn {
   color: rgb(224, 224, 224);
   background-color: #333e7d80;
   padding: 10px;
@@ -55,7 +55,11 @@ p {
   width: fit-content;
 }
 
-.btn-blue:hover {
+.card-btn a {
+  font-size: 8px !important;
+}
+
+.card-btn:hover {
   background-color: #edededa6;
   color: #00158a80;
   transition: .8s;
@@ -104,12 +108,16 @@ ul li {
   text-align: center;
 }
 
-.card-white li a {
+.footer {
+  text-align: center;
+}
+
+.footer li a {
   color: rgb(0, 0, 66);
   text-decoration: none;
 }
 
-.card-white li a:hover {
+.footer li a:hover {
   color: rgb(183, 0, 255);
   transition: 1s;
 }
