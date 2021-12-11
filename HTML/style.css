@@ -129,3 +129,8 @@ img {
     width: 300px;
   }
 }
+
+.icons {
+  font-size: 20px;
+  color: darkgray !important;
+}
