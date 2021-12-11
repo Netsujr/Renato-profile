@@ -6,7 +6,9 @@ html {
 }
 
 body {
-  background-image: url(/images/pexels-ovan-62693.jpg);
+  background-image: url(/images/redBg.png);
+  background-repeat: no-repeat;
+  background-size: contain;
   font-family: 'BioRhyme', serif !important;
   font-size: 24px;
   font-weight: 500;
